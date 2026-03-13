@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --eco-green:   #2ECC71;
+  --eco-dark:    #0F172A;
+  --eco-surface: #1E293B;
+  --eco-border:  #334155;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #0F172A;
+  color: #F8FAFC;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
